@@ -93,14 +93,13 @@ namespace UstaCagir
             });
         }
 
-        // YENİ - Hizmetleri doldur - ARTIK SADECE BİLGİLENDİRME AMAÇLI
+       
         private void HizmetleriDoldur()
         {
-            // Bu metod artık hiçbir şey yapmıyor çünkü comboBox2 kaldırıldı
-            // Sadece eski kodların çalışması için boş bırakıldı
+            
         }
 
-        // YENİ - Kategori değiştiğinde hizmetleri filtrele
+        //  Kategori değiştiğinde hizmetleri filtrele
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -117,14 +116,14 @@ namespace UstaCagir
             }
         }
 
-        // YENİ - Kategoriye göre hizmetleri filtrele - ARTIK KULLANILMIYOR
+        //  Kategoriye göre hizmetleri filtrele - ARTIK KULLANILMIYOR
         private void HizmetleriFiltreEt(string kategori)
         {
-            // Bu metod artık hiçbir şey yapmıyor çünkü comboBox2 kaldırıldı
-            // Sadece eski kodların çalışması için boş bırakıldı
+           
+          
         }
 
-        // DÜZELTİLMİŞ - Bilgileri Güncelle butonu
+        //  Bilgileri Güncelle butonu
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -185,7 +184,7 @@ namespace UstaCagir
             }
         }
 
-        // DÜZELTİLMİŞ - Hizmet Güncelle butonu - SADECE KATEGORİ GÜNCELLEMESİ
+        //  Hizmet Güncelle butonu 
         private void button2_Click(object sender, EventArgs e)
         {
             try
