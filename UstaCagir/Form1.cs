@@ -17,7 +17,7 @@ namespace UstaCagir
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Usta Giriþ butonuna týklandýðýnda
+            // Usta GiriÅŸ
             UstaGiris ustaGirisForm = new UstaGiris();
             ustaGirisForm.Show();
             this.Hide();
@@ -27,7 +27,7 @@ namespace UstaCagir
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Müþteri Giriþ butonuna týklandýðýnda
+            // MÃ¼Ã¾teri GiriÃ¾ butonuna tÃ½klandÃ½Ã°Ã½nda
             try
             {
                 MusteriGiris musteriGirisForm = new MusteriGiris();
