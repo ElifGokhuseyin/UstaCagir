@@ -34,7 +34,7 @@ namespace UstaCagir
             // Form yüklendiğinde önce kategorileri doldur
             KategorileriDoldur();
 
-            // Sonra usta bilgilerini yükle (bu kategoriyi seçecek)
+            // Sonra usta bilgilerini yükle 
             UstaBilgileriniYukle();
 
             // Hizmetleri doldur
@@ -116,7 +116,7 @@ namespace UstaCagir
             }
         }
 
-        //  Kategoriye göre hizmetleri filtrele - ARTIK KULLANILMIYOR
+        //  Kategoriye göre hizmetleri filtrele 
         private void HizmetleriFiltreEt(string kategori)
         {
            
